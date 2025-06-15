@@ -149,7 +149,7 @@ $$
 自动去除倾斜和屈服噪声（Automated Tilt and Compliance Removal）（[ATaCR](https://github.com/helenjanisz/ATaCR)，读作attacker）程序包，用于描述和去除海底地震仪（ocean bottom seismograph, OBS）数据中的倾斜噪声（tilt noise）和屈服噪声（compliance noise）。根据Crawford and Webb (2000)以及Bell et al. (2015)的方法进行倾斜和屈服噪声校正。更多详细信息，请参阅[ATaCR手册](https://github.com/helenjanisz/ATaCR/blob/master/ATaCR_Manual.pdf)。
 
 
-### 5.1 Pthon程序包`OBStools`
+### 5.2 Pthon程序包`OBStools`
 
 ATaCR的Python版，该代码使用`StDb`包查询和构建台站数据库，可以通过命令行脚本使用。
 
